@@ -74,7 +74,7 @@ public class ChasingDotsSpinner: Spinner {
 /**
  Spinner protocol that exposes its interface
  */
-public protocol SpinnerType: class {
+public protocol SpinnerType: AnyObject {
     /// Starts the spinner animation
     func startLoading()
     

@@ -38,7 +38,7 @@ class GenericRequest {
                             completion(.success(result))
                         }
                         
-                    }   catch (let err){
+                    }   catch (_){
                         DispatchQueue.main.async {
                             completion(.failure(RespError.invalidData))
                         }
