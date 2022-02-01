@@ -12,6 +12,7 @@ target 'Movie DB' do
     pod 'IQKeyboardManager'
     pod 'LanguageManager-iOS'
     pod 'SwiftEventBus'
+    pod 'SDWebImage'
     #Firebase
     pod 'Firebase/Crashlytics'
     pod 'Firebase/Analytics'

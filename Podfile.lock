@@ -135,6 +135,9 @@ PODS:
     - NVActivityIndicatorView/Base (= 5.1.1)
   - NVActivityIndicatorView/Base (5.1.1)
   - PromisesObjC (2.0.0)
+  - SDWebImage (5.12.3):
+    - SDWebImage/Core (= 5.12.3)
+  - SDWebImage/Core (5.12.3)
   - SwiftEventBus (5.0.0)
   - SwiftyJSON (5.0.1)
   - TinyConstraints (4.0.2)
@@ -149,6 +152,7 @@ DEPENDENCIES:
   - IQKeyboardManager
   - LanguageManager-iOS
   - NVActivityIndicatorView
+  - SDWebImage
   - SwiftEventBus
   - SwiftyJSON
   - TinyConstraints
@@ -175,6 +179,7 @@ SPEC REPOS:
     - nanopb
     - NVActivityIndicatorView
     - PromisesObjC
+    - SDWebImage
     - SwiftEventBus
     - SwiftyJSON
     - TinyConstraints
@@ -200,10 +205,11 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
   SwiftEventBus: b30f617a6aca5a9336464b4d3f5931034762f2d5
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
 
-PODFILE CHECKSUM: acdfa687c047fcefdaff84c64ac2a2cc369cbb17
+PODFILE CHECKSUM: e7135cc038eeb843850b8c6758681d43ced821b6
 
 COCOAPODS: 1.11.2
