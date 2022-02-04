@@ -13,11 +13,8 @@ target 'Movie DB' do
     pod 'LanguageManager-iOS'
     pod 'SwiftEventBus'
     pod 'SDWebImage'
-    #Firebase
-    pod 'Firebase/Crashlytics'
-    pod 'Firebase/Analytics'
-    pod 'Firebase/Performance'
-    pod 'Firebase/AppDistribution'
+    
+    
   # Pods for Movie DB
 
   target 'Movie DBTests' do
